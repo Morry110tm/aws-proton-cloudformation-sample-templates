@@ -126,7 +126,7 @@ Resources:
     Properties:
       GroupDescription: Automatically created Security Group for the Service
       SecurityGroupIngress:
-        - CidrIp: 0.0.0.0/0
+        - CidrIp: 123.0.76.242/32
           Description: Allow all inbound traffic by default
           IpProtocol: '-1'
       SecurityGroupEgress:
